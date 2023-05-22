@@ -1,0 +1,187 @@
+html {
+  background-image: linear-gradient(to left, #6eda78, #ffa200 );
+  height: 100%;
+}
+
+.card{
+  display: inline-block;
+  margin: 2px 2px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  &:hover{
+    background-color: #ffa200;
+    cursor: pointer;
+  }
+  &.big{
+    width: 300px;
+    margin: auto 10px auto 10px;
+  }
+  &.dummy{
+    background-color: transparent;
+  }
+  & span{
+    display: block;
+    & a{
+      color:white;
+      background-color: #6eda78;
+      border-radius: 1px;
+    }
+  }
+  >.arrowleft{
+    width: 0;
+    height: 0;
+    margin: 20px auto;
+    border-top: 25px solid transparent;
+    border-right: 50px solid #555;
+    border-bottom: 25px solid transparent;
+  }
+  >.arrowright{
+    width: 0;
+    height: 0;
+    margin: 20px auto;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #555;
+    border-bottom: 25px solid transparent;
+  }
+  >.arrowup{
+    width: 0;
+    height: 0;
+    margin: 20px 30px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #555;
+    display: inline-block;
+  }
+  >.arrowdown{
+    width: 0;
+    height: 0;
+    margin: 20px 30px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #555;
+    display: inline-block;
+  }
+  >.oval {
+    margin: 20px auto;
+    height: 50px;
+    width: 100px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+  >.rectangle {
+    margin: 20px auto;
+    height: 50px;
+    width: 100px;
+    background-color: #555;
+  }
+  >.circle {
+    margin: 20px auto;
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+  >.square {
+    margin: 20px auto;
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+  >.parallelogram {
+    margin: 20px auto;
+    width: 100px;
+    height: 50px;
+    transform: skew(20deg);
+    background: #555;
+  }
+  >.trapezoid {
+    margin: 20px auto;
+    border-bottom: 50px solid #555;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 125px;
+  }
+}
+
+.shapeSection{
+  >.above{
+    justify-content: center;
+    display: flex;
+  }
+  >.below{
+    justify-content: center;
+    display: flex;
+  }
+}
+
+.background{
+  padding: auto;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  background-image: linear-gradient(to left, #6eda78, #ffa200 );
+  &.header{
+    margin: auto;
+    padding: auto;
+    width:100%;
+    justify-content: left;
+    & h2{
+      margin:"0 0"
+    }
+  }
+  &.home{
+  align-items: center;
+  min-height: 100vh;
+  >.card{
+    padding: 10px;
+  }
+  }
+}
+
+
+
+
+
+ /* .App {
+  
+} */
+
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
